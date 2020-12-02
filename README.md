@@ -7,6 +7,9 @@
 
 > 서명 된 url에 유효기간이 있음. 그래서 cloudfront 써서 해결한다고 함. (조사 필요)
 
+### 참고 
+- https://ryan-han.com/post/aws/s3/
+
 ### CDN(Contents Delivery Network)
 - 물리적으로 떨어져 있는 사용자에게 컨텐츠를 빠르게 제공할 수 있는 기술
 - Origin Server의 리소스를 사용자에 가까운 곳에 위치한 Cache Server에 Content를 캐싱하고 요청시 Cache Server가 응답해줘 Latency를 낮춤
