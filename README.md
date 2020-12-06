@@ -14,6 +14,13 @@
   7. 검토 및 시작
   8. 키페어 설정 후 시작
 
+### SSH 접속하기
+  - ssh -i "key pair.pem" {계정}@{public dns}
+  ```bash
+  $ ssh -i "key.pem" ubuntu@xxxxxxxxx.ap-northeast-2.compute.amazonaws.com
+  ```
+  > Permissions 0777 for 'key.pem' are too open. 라는 오류가 뜨고 접속이 안되면 키페어 파일의 권한이 공개되어있어서 그렇다.
+  > - 리눅스에서는 chmod 400 을 해주면 되지만 Windows에서는 WSL을 써도 잘 안먹힌다. 직접 설정을 해줘야 한다.
 
 
 
