@@ -22,6 +22,11 @@
   > Permissions 0777 for 'key.pem' are too open. 라는 오류가 뜨고 접속이 안되면 키페어 파일의 권한이 공개되어있어서 그렇다.
   > - 리눅스에서는 chmod 400 을 해주면 되지만 Windows에서는 WSL을 써도 잘 안먹힌다. 
   > > WSL에서도 내부 리눅스 디렉토리로 파일을 옮겨주면 사용 가능
+  ```bash
+  $ cp "keypair.pem" ~/keypair.pem
+  $ cd
+  $ chmod 400 keypair.pem
+  ```
   
 
 ### Amazon S3 (Amazon Simple Storage Service)
