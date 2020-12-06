@@ -1,3 +1,7 @@
+### EC2 (Elastic Compute Cloud)
+
+
+
 ### Amazon S3 (Amazon Simple Storage Service)
 - 인터넷용 스토리지 서비스. 개발자가 쉽게 웹 규모 컴퓨팅 작업을 수행할 수 있도록 설계
 - 용량당 비용 계산
