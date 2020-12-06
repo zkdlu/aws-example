@@ -23,11 +23,6 @@
   > - 리눅스에서는 chmod 400 을 해주면 되지만 Windows에서는 WSL을 써도 잘 안먹힌다. 
   > > WSL에서도 내부 리눅스 디렉토리로 파일을 옮겨주면 사용 가능
   
-  - 접속 후 도커 설치
-  ```bash
-  $curl -fsSL https://get.docker.com/ | sudo sh
-  ```
-  
 
 ### Amazon S3 (Amazon Simple Storage Service)
 - 인터넷용 스토리지 서비스. 개발자가 쉽게 웹 규모 컴퓨팅 작업을 수행할 수 있도록 설계
