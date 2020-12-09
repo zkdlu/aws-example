@@ -13,6 +13,12 @@
     > 보안그룹 설명에 한글이 들어가면 Invalid rule description. 오류가 뜨더라.
   7. 검토 및 시작
   8. 키페어 설정 후 시작
+  
+  
+- Elastic IP 1개 무료 (연결을 안해두면 요금 청구)
+- RDS 1개 무료 (생성시 Multi-AZ와 고성능 I/O인 Provisioned IOPS Storate를 사용 않도록 설정)
+- ElasticCache 1개 무료 (무료 사용 대상은 t2.micro, Multi-AZ 체크 해제)
+- EBS는 30GB까지 무료 (기본 세팅은 8GB) - Stop 상태여도 인스턴스를 가지고 있으면 볼륨을 차지한다. 안쓰면 삭제)
 
 ### SSH 접속하기
   - ssh -i "key pair.pem" {계정}@{public dns}
