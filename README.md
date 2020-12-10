@@ -33,7 +33,9 @@
   $ cd
   $ chmod 400 keypair.pem
   ```
-  
+
+## Amazon Code Deploy
+- EC2/Lambda에 코드를 배포하는 데는 추가 비용이 부과되지 않음
   
 ## Amazon Systems Manager(Parameter Store)
 - 패스워드, 데이터베이스 문자열, api키 등 관리를 위한 안전한 계층적 스토리지 서비스
