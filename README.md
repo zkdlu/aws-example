@@ -35,7 +35,7 @@
   ```
   
   
-### Amazon Parameter Store
+## Amazon Parameter Store
 - 패스워드, 데이터베이스 문자열, api키 등 관리를 위한 안전한 계층적 스토리지 서비스
 
 
