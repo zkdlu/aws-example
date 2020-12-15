@@ -74,3 +74,7 @@
 > EC2에 직접 설치하는게 비용적으로 저렴하나 빠른 서비스를 위한 이점이 있다고 함
 ### Amazon Cloudfront
 - 매월 50GB 데이터 전송 및 2,000,000 개의 HTTP및 HTTPS 요청
+
+
+# 비용 폭탄 사례 (경각심을 갖자 거지새끼야.)
+- https://sanghaklee.tistory.com/32
