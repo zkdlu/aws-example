@@ -62,3 +62,15 @@
 > CloudFront 사용하는데 삽질을 하였다. S3처럼 sdk를 활용한 사용법이 따로 있는 줄 알았는데 S3와 연결된 도메인을 이용하면 끝났다. (cname : 대체 도메인)
 > - ex) s3에 bucket에 저장된 key가 test/1.jpg라면 {cloudfront-domain}/test/1.jpg를 사용하면 됨.
 > - 직접 aws에서 s3와 연결하는거는 하지 못했기 때문에 나중에 직접 해보기
+
+
+## 프리티어 요금 정책
+### Amazon EC2
+- t2.micro 인스턴스 사용량의 월 750 시간
+### Amazon S3
+- 5GB의 S3 표준 저장소, 20000개의 Get 요청 및 2000개의 Put 요청
+### Amazon RDS 
+- db.t2.micro 인스턴스 750시간, 20GB 데이터베이스 스토리지, 1000만 I/O 및 20GB 백업 스토리지 
+> EC2에 직접 설치하는게 비용적으로 저렴하나 빠른 서비스를 위한 이점이 있다고 함
+### Amazon Cloudfront
+- 매월 50GB 데이터 전송 및 2,000,000 개의 HTTP및 HTTPS 요청
