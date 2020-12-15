@@ -79,4 +79,5 @@
 # 비용 폭탄 사례 (경각심을 갖자 거지새끼야.)
 - https://sanghaklee.tistory.com/32
 - https://gun0912.tistory.com/45
-- 
+- https://moonppower.tistory.com/17
+- https://corikachu.github.io/articles/aws/refund-aws-unexpected-billing
