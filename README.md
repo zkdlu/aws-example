@@ -1,6 +1,10 @@
 ## IAM (Identity and Access Management)
 - AWS리소스에 대한 액세스를 안전하게 제어할 수 있는 웹 
 
+### IAM 계정 생성하기
+1. AWS 로그인 후 우측 상단 계정을 클릭한 후 **[내 보안 자격 증명]** 클릭
+2. 
+
 
 ## EC2 (Elastic Compute Cloud)
   1. 인스턴스 시작
