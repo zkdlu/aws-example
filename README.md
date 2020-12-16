@@ -1,3 +1,7 @@
+## IAM (Identity and Access Management)
+- AWS리소스에 대한 액세스를 안전하게 제어할 수 있는 웹 
+
+
 ## EC2 (Elastic Compute Cloud)
   1. 인스턴스 시작
   2. Amazon Machine Image(AMI) 선택
